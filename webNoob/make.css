@@ -1,0 +1,77 @@
+body{
+    background:
+    
+    linear-gradient(
+        rgba(0, 0, 0, .0),
+        rgba(0, 0, 0, .0)
+    ),
+    url(background.gif);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header {
+    width: 100%;
+    background: url('../header-bg.png');
+    height: 80px;
+    position: fixed;
+    margin-top: 5px;
+    }
+    #nav { 
+        width: 410px; 
+        float: right;
+        margin-top: 20px; 
+    }
+
+    .center { margin: 0 auto; }
+
+    .content{ margin: 0 auto; width: 960px; }
+
+    #logo a { color: #fff; 
+        text-decoration: none; 
+        float: left; 
+        font-size: 30px; 
+        margin-top: 20px; 
+        font-family:"Wellfleet"; 
+        font-weight: bold; 
+    }
+    #nav ul{/*The things in this element organize the other elements within it. 
+        they are blocks so as to be in line and the padding put in li are to keep them 
+        apart from each other*/
+    list-style: none;
+    display: block;
+    margin: 0 auto;
+    }
+    #nav li{
+    margin-top: 9px;
+    float: left;
+    padding-left: 21px;
+    }
+    #nav li a { color: #fff; opacity:0.6; font-size: 16px; transition: color 1s; text-decoration: none; font-family: 'Wellfleet'; }
+    #nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
+    #nav li a:hover { color: #fff; opacity:1; font-size: 24px}
+
+  
+.clear { clear: both; }
+
+#fiv{
+display: flex;
+
+}
+#fiv img{
+    margin-bottom: 37px;
+    margin-top: 120px;
+    align-items: center;
+}
+.div2{
+    background-color: rgb(122, 19, 67);
+    color: rgb(255, 255, 255);
+    border-color: rgb(116, 112, 112);
+    border-width: 6px;
+    border-style: inset;
+}
+
+.po{
+    margin:7px;
+}
